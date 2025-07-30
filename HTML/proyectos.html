@@ -14,13 +14,11 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/CSS/01seccion.css" />
+    <link rel="stylesheet" href="/CSS/02seccion.css"/>
     <link rel="stylesheet" href="/CSS/menu.css"/>
-    <link rel="stylesheet" href="/CSS/footer.css" />
-    <link rel="stylesheet" href="/CSS/fondo.css" />
-    <link rel="stylesheet" href="/CSS/paginacion.css"/>
-    <link rel="stylesheet" href="/CSS/estilomistrabajos.css"/>
-
+    <link rel="stylesheet" href="/CSS/footer.css"/>
+    <link rel="stylesheet" href="/CSS/fondo.css"/>
+    <link rel="stylesheet" href="/CSS/principalpaginacion.css"/>
   </head>
 
   <body>
@@ -29,7 +27,7 @@
         <div class="row justify-content-around">
           <div class="col-4">
             <div class="imagotipo">
-              <a href="/HTML/0index.html">
+              <a href="/HTML/index.html">
                 <img src="/imagenes/logo_ok6.png"/>
                 <img src="/imagenes/l.e.m.n. turquesa.png"/>
               </a>
@@ -41,29 +39,32 @@
               <nav>
                 <ul>
                   <li>
-                    <a href="/HTML/01aboutme.html">
+                    <a href="/HTML/sobre-mi.html">
                       <img src="/imagenes/ICONOS/Sobre mi.png" alt="perfil1"/>
                       <span>Sobre mi</span>
                     </a>
                   </li>
 
                   <li>
-                    <a href="/HTML/02projects.html">
-                      <img src="/imagenes/ICONOS/favorite.png"/>
+                    <a href="/HTML/proyectos.html">
+                      <img
+                        src="/imagenes/ICONOS/favorite.png"/>
                       <span>Mis proyectos</span>
                     </a>
                   </li>
 
                   <li>
-                    <a href="/HTML/03miporceso.html">
-                      <img  src="/imagenes/ICONOS/pen.png"/>
-                      <span>Mi proceso</span> 
+                    <a href="/HTML//proceso.html">
+                      <img
+                        src="/imagenes/ICONOS/pen.png"/>
+                      <span>Mi proceso</span>
                     </a>
                   </li>
 
                   <li>
-                    <a href="/HTML/04contact.html">
-                      <img src="/imagenes/ICONOS/text.png"/>
+                    <a href="/HTML/contacto.html">
+                      <img
+                        src="/imagenes/ICONOS/text.png"/>
                       <span>Contact</span>
                     </a>
                   </li>
@@ -71,81 +72,49 @@
               </nav>
             </div>
           </div>
-
         </div>
       </div>
     </header>
 
     <section>
-      
-      <div class="titulo">
-        <h1> Muy Pronto...</h1>
-      </div>
+      <div class="mp2"><h4>My Projects.</h4></div>
 
-      <div class="container-md">
-        <div class="fila">
-          <div class="imagen">
-            <img src="/imagenes/mantenimiento.png" alt="" />
+      <div class="card-container">
+
+        <div class="card">
+          <div class="card-front">
+            <img src="/imagenes/UIUX.png" alt="" />
           </div>
-          <div class="contenido">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.x
-            </p>
-            <a href="#" class="ver-mas">Ver más...</a>
+          <div class="card-back">
+            <h5>UX/UI</h5>
+            <p>Esta es una breve descripción del contenido de la tarjeta</p>
+            <a href="/HTML/mis-trabajos.html" class="ver-mas">Ver más.</a>
           </div>
         </div>
 
-        <hr>
-
-        <div class="fila">
-          <div class="imagen">
-            <img src="/imagenes/mantenimiento.png" alt="" />
+        <div class="card">
+          <div class="card-front">
+            <img src="/imagenes/Mant.png" alt="" />
           </div>
-          <div class="contenido">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.x
-            </p>
-            <a href="#" class="ver-mas">Ver más...</a>
-          </div>
-        </div>
-
-        <hr>
-
-        <div class="fila">
-          <div class="imagen">
-            <img src="/imagenes/mantenimiento.png" alt="" />
-          </div>
-          <div class="contenido">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.x
-            </p>
-            <a href="#" class="ver-mas">Ver más...</a>
+          <div class="card-back">
+            <h5>!Estamos trabajando!</h5>
+            <p>Este portafolio continúa en desarrollo. Próximamente, más proyectos.</p>
+            <a href="/HTML/mis-trabajos02.html" class="ver-mas">Ver más.</a>
           </div>
         </div>
       </div>
 
-      <div class="pagination-container">
-        <a href="/HTML/mistrabjos01.html" class="pag">← Anterior</a>
-        <a href="/HTML/04contact.html" class="pag">Siguiente →</a>
+       <div class="pagination-container">
+        <a href="/HTML/sobre-mi.html" class="pag">← Anterior</a>
+        <a href="/HTML/proceso.html" class="pag">Siguiente →</a>
       </div>
+
     </section>
-
-    
 
     <script src="" async defer></script>
   </body>
 
   <footer>
-
       <div class="container">
         <div class="row justify-content-start">
           <div class="col-6">
