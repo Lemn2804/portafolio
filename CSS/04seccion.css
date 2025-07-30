@@ -1,0 +1,93 @@
+section {
+  position: relative;
+  top: 65px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-center {
+  justify-items: center;
+  position: relative;
+  bottom: 45px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titulo {
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.titulo h4{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  text-shadow: 0 0 7px #00d9ff;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translatex(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.185);
+  padding: 53px;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  border-radius: 20px;
+  width: 615px;
+}
+
+.input-group {
+  flex-direction: column;
+  color: white;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+input,
+textarea {
+  color: rgb(0, 78, 180);
+  margin-bottom: 10px;
+  outline: none;
+  padding: 3px;
+  font-size: 13px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 3px 14px;
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+  color: rgb(9, 0, 51);
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 0px 7px #dee2e6;
+}
+
+.btn:hover {
+  background-color: rgb(80, 220, 255);
+  color: rgb(35, 0, 68);
+}

@@ -1,0 +1,87 @@
+section {
+  max-width: 1920px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 27px;
+}
+
+.titulo03 {
+  text-align: center;
+  margin: 5 5 5 5;
+}
+
+.titulo03 h4 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  text-shadow: 0 0 7px #00d9ff;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translatex(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+.container-xxl {
+  position: relative;
+  top: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 52px 0;
+  gap: 78px;
+  text-align: justify;
+  margin: auto;
+}
+
+.col .titulos h5 {
+  text-align: center;
+  color: aqua;
+  font-weight: 300;
+  text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+}
+
+.grande {
+  font-size: 400%;
+}
+
+.col .Muestra img {
+  max-width: 137px;
+  display: block;
+  margin: 0px auto;
+  padding: 10px;
+  filter: brightness(204%);
+}
+
+.col p {
+  font-weight: 263;
+}
+
+.col ul li {
+  font-weight: 263;
+}
+
+@media (max-width: 768px) {
+  .container-xxl {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media (max-width: 1680px) {
+  .container-xxl{
+  padding: 0 20px 0 20px;
+  }
+}

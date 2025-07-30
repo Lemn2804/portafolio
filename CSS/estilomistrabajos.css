@@ -1,0 +1,105 @@
+section {
+  position: relative;
+  top: 56px;
+  margin: 7px;
+}
+.titulo {
+  text-align: center;
+  position: relative;
+  bottom: 31px;
+}
+.titulo h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  text-shadow: 0 0 7px #00d9ff;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translatex(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+
+.container-md {
+  color: white;
+  padding: 23px;
+  position: relative;
+  bottom: 30px;
+}
+
+.fila {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  max-width: 305px;
+  border-radius: 20px;
+}
+
+h5 {
+  color: #00fdff;
+  font-weight: 300;
+  animation: glow 2s ease-in-out infinite alternate, fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ver-mas {
+  color: #00fdff;
+  text-decoration: none;
+}
+
+button {
+  padding: 3px 14px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 0px 7px #51bfff;
+}
+
+hr {
+  height: 3px;
+  background: #ffffff;
+  margin: 17px 102px;
+  width: 80.2%;
+}
+
+@media (max-width: 769px) {
+  .fila {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  hr {
+    margin: 20px 55px;
+    width: 79.2%;
+  }
+}

@@ -1,0 +1,61 @@
+footer {
+  position: relative;
+  top: 72px;
+  padding: 5px;
+  background-color: #ffffffc5;
+}
+
+h6{
+  text-shadow: rgb(0, 238, 255) 0px 0px 2px;
+  letter-spacing: -0.1px;
+  font-weight: 550;
+}
+
+.col-6 {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px 5px 73px;
+  justify-content: space-evenly;
+}
+
+.fin {
+  font-size: 9px;
+  width: 97%;
+  font-weight: 300;
+  color: rgb(0, 11, 26);
+  letter-spacing: 0.8px;
+  margin: auto;
+}
+
+.redes {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.Txuno {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.redes img {
+  max-width: 33px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.año {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+.menudos {
+  list-style: none;
+  text-align: end;
+  padding: 5px;
+  font-size:14px ;
+}

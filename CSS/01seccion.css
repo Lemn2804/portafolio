@@ -1,0 +1,101 @@
+section {
+  position: relative;
+  top: 5px;
+}
+
+.justify-content-center {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 0 79px 0px;
+  margin: 0;
+}
+
+.col-7 {
+  position: relative;
+  width: 58.33333333%;
+  top: 30px;
+}
+
+.miinfo {
+  width: 400px;
+  position: relative;
+}
+
+.miinfo .intro {
+  color: aqua;
+  font-size: 28px;
+  display: block;
+  font-weight: 530;
+}
+
+.miinfo img {
+  width: 350px;
+  margin-left: 50px;
+}
+
+.miinfo .profesion {
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  color: aliceblue;
+}
+
+.mitexto1 {
+  position: relative;
+  top: 27px;
+  text-align: justify;
+  margin: 2px;
+  line-height: 28px;
+  color: aliceblue;
+  font-weight: 263;
+}
+
+.col-5 {
+  top: 74px;
+  position: relative;
+  width: 414px;
+  height: 492px;
+  right: 12px;
+  overflow: hidden;
+}
+
+.miphoto img {
+  height: 486px;
+  width: 423px;
+  object-fit: cover;
+  position: absolute;
+  animation: slideUp 3s ease-out forwards;
+  bottom: -100%; /* Comienza fuera de la vista */
+}
+
+@keyframes slideUp {
+  to {
+    bottom: 10;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .col-7 {
+    width: 93.333333%;
+  }
+
+  .miinfo {
+    width: 241px;
+  }
+
+  .miinfo img {
+    width: 185px;
+  }
+
+  .miinfo .profesion {
+    font-size: 13px;
+    top: 87px;
+  }
+
+  .col-5 {
+    display: none;
+  }
+}

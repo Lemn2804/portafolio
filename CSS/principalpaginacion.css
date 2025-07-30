@@ -1,0 +1,20 @@
+.pagination-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+  position: relative;
+  top: -4px;
+}
+
+.pag {
+  padding: 4px 12px;
+  background-color: #ffffff3b;
+  color: white;
+  text-decoration: none;
+  border-radius: 17px;
+}
+
+.pagination-container a:hover {
+  background-color: rgb(59, 209, 255);
+  color: rgb(5, 0, 46);
+}
