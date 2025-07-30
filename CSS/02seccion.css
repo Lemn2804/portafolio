@@ -1,0 +1,162 @@
+section {
+  align-content: center;
+  position: relative;
+}
+
+.mp2 {
+  position: relative;
+  bottom: 17px;
+  text-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mp2 h4{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  text-shadow: 0 0 7px #00d9ff;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translatex(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+.card-container {
+  position: relative;
+  top: 0px;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  gap: 85px;
+  margin: 6px 516px;
+  padding: 0 0 17px 0;
+}
+
+.card {
+  width: 354px;
+  height: 506px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.9s;
+  background-color: #00fffc;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  border-radius: 5px;
+}
+.card-back {
+  background-color: #001c29;
+  color: white;
+  transform: rotateY(180deg);
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+h5{
+color: #00fffc;
+}
+.card-back button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: white;
+  color: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-back button:hover {
+  background-color: #27ae60;
+  color: white;
+}
+
+.ver-mas{
+  color: rgb(0, 247, 255);
+  text-decoration: none;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  gap: 355px;
+  color: white;
+  padding: 5px;
+}
+
+.text h5 {
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  section {
+    top: 50px;
+  }
+
+  .mp2 {
+    bottom: 2px;
+  }
+  .card-container {
+    display: flex;
+    margin: 30px;
+    padding: 32.5px;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 501px) {
+  section {
+    top: 50px;
+  }
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 6px 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
