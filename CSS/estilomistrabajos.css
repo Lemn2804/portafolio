@@ -40,7 +40,7 @@ section {
 
 .fila {
   display: flex;
-  gap: 90px;
+  gap: 68px;
   justify-content: center;
   align-items: center;
 }
@@ -51,8 +51,8 @@ section {
 }
 
 h5 {
-  color: #00fdff;
-  font-weight: 300;
+  color: #ffc60a;
+  font-weight: 400;
   animation: glow 2s ease-in-out infinite alternate, fadeIn 1s ease-in;
 }
 
