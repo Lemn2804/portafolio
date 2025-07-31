@@ -68,7 +68,7 @@ header {
   filter: brightness(220%);
 }
 
-@media (max-width: 700px) {
+@media screen and (min-width: 500px) and (max-width: 768px){
   header {
     margin: 3px;
     padding: 3px;
@@ -85,9 +85,8 @@ header {
     top: 6px;
   }
 
-  .imagotipo img {
-    max-width: 150px;
-    left: 38px;
+  .imagotipo a img {
+    display: none;
   }
 
   .imagotipo h1 {
@@ -101,7 +100,7 @@ header {
     position: relative;
     text-align: center;
     font-size: 14px;
-    top: 0px;
+    bottom: 5px;
     padding: 0px;
   }
 
