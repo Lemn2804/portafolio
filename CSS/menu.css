@@ -79,23 +79,10 @@ header {
   }
 
   .imagotipo {
-    position: relative;
-    left: 23px;
-    margin: 2px;
-    top: 6px;
-  }
-
-  .imagotipo a img {
     display: none;
   }
 
-  .imagotipo h1 {
-    font-size: 40px;
-    left: -98px;
-    top: 69px;
-    margin: 4px;
-  }
-
+  
   .mimenu {
     position: relative;
     text-align: center;
