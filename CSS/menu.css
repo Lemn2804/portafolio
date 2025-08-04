@@ -11,9 +11,9 @@ header {
 }
 .imagotipo {
   display: flex;
-  justify-content: left; 
-  align-items: center;            
-  padding: 5px; 
+  justify-content: left;
+  align-items: center;
+  padding: 5px;
 }
 
 .imagotipo a {
@@ -25,7 +25,7 @@ header {
   max-width: 103px;
   cursor: pointer;
   position: relative;
-  max-height: 80px;      
+  max-height: 80px;
   object-fit: contain;
 }
 
@@ -68,39 +68,37 @@ header {
   filter: brightness(220%);
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px){
-  header {
-    margin: 3px;
-    padding: 3px;
-  }
-
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .col-4 {
-    width: 86%;
+    width: 50%;
   }
 
   .imagotipo {
-    display: none;
+    display: flow-root;
+    justify-items: center;
   }
 
-  
+  .imagotipo img {
+    max-width: 80px;
+  }
+
   .mimenu {
-    position: relative;
+    
     text-align: center;
     font-size: 14px;
-    bottom: 5px;
-    padding: 0px;
   }
 
   .mimenu nav ul {
-    flex-direction: row;
-    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
   }
 
-  .mimenu ul li a {
-    position: relative;
-    top: 17px;
-    height: 56px;
-    width: 100px;
+  .mimenu nav ul li a {
+    height: 21px;
+    width: 115px;
+    align-items: start;
+    
   }
 
   .mimenu ul li a img {
@@ -112,4 +110,3 @@ header {
     margin: 0px;
   }
 }
-

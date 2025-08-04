@@ -77,22 +77,22 @@ section {
 }
 
 @media (max-width: 768px) {
-
   .col-7 {
     width: 93.333333%;
   }
 
   .miinfo {
-    width: 241px;
+    width: 328px;
   }
 
   .miinfo img {
-    width: 185px;
+    width: 258px;
   }
 
   .miinfo .profesion {
-    font-size: 13px;
-    top: 87px;
+    font-size: 12px;
+    top: 96px;
+    right: 25px;
   }
 
   .col-5 {
