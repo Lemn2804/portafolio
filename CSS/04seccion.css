@@ -91,3 +91,31 @@ textarea {
   background-color: rgb(80, 220, 255);
   color: rgb(35, 0, 68);
 }
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+
+  section {
+    margin: 0px;
+  }
+
+
+  .titulo {
+    bottom: 54px;
+  }
+
+  form{
+    padding: 7px 7px 7px;
+    border-radius: 7px;
+    width: 341px;
+  }
+
+  label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+  .boton {
+    margin-top: 8px;
+  }
+
+}

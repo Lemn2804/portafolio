@@ -12,7 +12,7 @@ section {
   margin: 0px;
 }
 
-.mp2 h4{
+.mp2 h4 {
   font-size: 30px;
   color: #ffffff;
   font-weight: 500;
@@ -85,8 +85,8 @@ section {
   text-align: center;
 }
 
-h5{
-color: #00fffc;
+h5 {
+  color: #00fffc;
 }
 .card-back button {
   margin-top: 10px;
@@ -102,7 +102,7 @@ color: #00fffc;
   color: white;
 }
 
-.ver-mas{
+.ver-mas {
   color: rgb(0, 247, 255);
   text-decoration: none;
 }
@@ -119,39 +119,23 @@ color: #00fffc;
   position: relative;
 }
 
-@media (max-width: 500px) {
+@media screen and (min-width: 375px) and (max-width: 767px)  {
   section {
     top: 50px;
   }
 
-  .mp2 {
-    bottom: 2px;
+  .mp2 h4{
+    position: relative;
+    bottom: 4px;
   }
+
   .card-container {
-    display: flex;
-    margin: 30px;
-    padding: 32.5px;
+    margin: 10px;
+    padding: 0px;
     flex-direction: column;
   }
 }
 
-@media (min-width: 501px) {
-  section {
-    top: 50px;
-  }
-  .card-container {
-    flex-direction: column;
-    align-items: center;
-    margin: 6px 6px;
-  }
-}
-
-@media (min-width: 768px) {
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 
 @media (min-width: 1024px) {
   .card-container {
