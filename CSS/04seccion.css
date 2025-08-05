@@ -67,6 +67,7 @@ textarea {
   outline: none;
   padding: 3px;
   font-size: 13px;
+  max-width: 100%;
 }
 
 .boton {
@@ -98,13 +99,19 @@ textarea {
     margin: 0px;
   }
 
+  .container-center {
+    justify-content: center;
+    bottom: 29px;
+    padding: 10;
+  }
+
 
   .titulo {
-    bottom: 54px;
+    bottom: 46px;
   }
 
   form{
-    padding: 7px 7px 7px;
+    padding: 10px 10px 10px;
     border-radius: 7px;
     width: 341px;
   }
