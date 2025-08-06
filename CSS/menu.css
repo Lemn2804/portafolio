@@ -96,7 +96,7 @@ header {
 
   .mimenu nav ul li a {
     height: 21px;
-    width: 115px;
+    width: 100%;
     align-items: start;
     
   }

@@ -1,6 +1,7 @@
 section {
   align-content: center;
   position: relative;
+  top: 47px;
 }
 
 .mp2 {
@@ -41,7 +42,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 85px;
-  margin: 6px 516px;
+  margin: 6px 7px;
   padding: 0 0 17px 0;
 }
 
@@ -119,12 +120,12 @@ h5 {
   position: relative;
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px)  {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   section {
     top: 50px;
   }
 
-  .mp2 h4{
+  .mp2 h4 {
     position: relative;
     bottom: 4px;
   }
@@ -133,9 +134,10 @@ h5 {
     margin: 10px;
     padding: 0px;
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 }
-
 
 @media (min-width: 1024px) {
   .card-container {
