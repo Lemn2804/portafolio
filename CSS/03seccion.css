@@ -1,7 +1,4 @@
 section {
-  max-width: 1920px;
-  margin: 0px;
-  padding: 0px;
   position: relative;
   top: 27px;
 }
@@ -9,6 +6,8 @@ section {
 .titulo03 {
   text-align: center;
   margin: 5 5 5 5;
+  position: relative;
+  bottom: 10px;
 }
 
 .titulo03 h4 {
@@ -35,19 +34,19 @@ section {
 
 .container-xxl {
   position: relative;
-  top: 15px;
+  top: 20px;
   color: #ffffff;
   display: flex;
   flex-direction: row;
   padding: 0 0 52px 0;
-  gap: 78px;
+  gap: 80px;
   text-align: justify;
   margin: auto;
 }
 
 .col .titulos h5 {
   text-align: center;
-  color: aqua;
+  color: #00e5ff;
   font-weight: 300;
   text-shadow: rgb(255, 255, 255) 0px 0px 5px;
 }
@@ -72,16 +71,20 @@ section {
   font-weight: 263;
 }
 
-@media (max-width: 768px) {
-  .container-xxl {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px 0 20px;
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  section {
+    top: 36px;
   }
-}
 
-@media (max-width: 1680px) {
-  .container-xxl{
-  padding: 0 20px 0 20px;
+  .titulo03 {
+    bottom: 18px;
+  }
+
+  .container-xxl {
+    padding: 0 20px 0 20px;
+    gap: 40px;
+    top: 1px;
+    flex-direction: column;
+
   }
 }

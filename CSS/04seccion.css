@@ -1,15 +1,12 @@
 section {
   position: relative;
-  top: 65px;
-  margin: 30px;
-  display: flex;
-  flex-direction: column;
+  top: 47px;
 }
 
 .container-center {
   justify-items: center;
   position: relative;
-  bottom: 45px;
+  bottom: 14px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -17,10 +14,10 @@ section {
 .titulo {
   text-align: center;
   position: relative;
-  bottom: 70px;
+  bottom: 30px;
 }
 
-.titulo h4{
+.titulo h4 {
   font-size: 30px;
   color: #ffffff;
   font-weight: 500;
@@ -95,22 +92,17 @@ textarea {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
-  section {
-    margin: 0px;
+  .titulo {
+    bottom: 25px;
   }
 
   .container-center {
     justify-content: center;
-    bottom: 29px;
+    bottom: 17px;
     padding: 10;
   }
-
-
-  .titulo {
-    bottom: 46px;
-  }
-
-  form{
+  
+  form {
     padding: 10px 10px 10px;
     border-radius: 7px;
     width: 341px;
@@ -119,10 +111,9 @@ textarea {
   label {
     font-size: 13px;
     font-weight: 300;
-}
+  }
 
   .boton {
     margin-top: 8px;
   }
-
 }

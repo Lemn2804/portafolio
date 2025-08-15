@@ -1,6 +1,6 @@
 footer {
   position: relative;
-  top: 72px;
+  top: 112px;
   padding: 5px;
   background-color: #ffffffc5;
 }
@@ -59,4 +59,11 @@ h4{
   text-align: end;
   padding: 5px;
   font-size:14px ;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+  footer{
+  top: 95px;
+  }  
 }

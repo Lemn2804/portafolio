@@ -1,8 +1,7 @@
 section {
-  align-content: center;
   position: relative;
-  top: 47px;
-  margin: 1px;
+  text-align: center;
+  top: 29px;
 }
 
 .mp2 {
@@ -11,6 +10,7 @@ section {
   align-items: center;
   padding: 0px;
   margin: 1px;
+  bottom: 11px;
 }
 
 .mp2 h4 {
@@ -121,6 +121,15 @@ h5 {
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
+
+  section{
+    top: 46px;
+  }
+   
+  .mp2{
+    bottom: 27px;
+  }
+
   .card {
     width: 308px;
     height: 434px;
@@ -132,6 +141,6 @@ h5 {
     flex-direction: column;
     gap: 40px;
     align-items: center;
-
+    top: -17px;
   }
 }
