@@ -109,15 +109,19 @@ hr {
   width: 80.2%;
 }
 
-@media (max-width: 769px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .fila {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 13px;
   }
 
   hr {
     margin: 20px 55px;
-    width: 79.2%;
+    width: 65.2%;
+  }
+
+  .titulo h1 {
+    font-size: 22px;
   }
 }
