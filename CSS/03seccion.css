@@ -56,6 +56,8 @@ section {
 }
 
 .col .Muestra img {
+  border: 2px solid rgb(101, 196, 255);
+  border-radius: 20px;
   max-width: 137px;
   display: block;
   margin: 0px auto;

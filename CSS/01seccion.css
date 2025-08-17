@@ -34,12 +34,17 @@ section {
   margin-left: 50px;
 }
 
+.miinfo img:hover {
+  transform: translate(-5px, -5px);
+}
+
 .miinfo .profesion {
-  font-size: 15px;
+  font-size: 14px;
   position: absolute;
-  right: 10px;
-  bottom: 0px;
+  right: 7px;
+  bottom: 2px;
   color: aliceblue;
+  font-style: italic;
 }
 
 .mitexto1 {
@@ -50,6 +55,13 @@ section {
   line-height: 28px;
   color: aliceblue;
   font-weight: 263;
+}
+
+.nota {
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(0 206 255);
 }
 
 .col-5 {
@@ -90,9 +102,9 @@ section {
   }
 
   .miinfo .profesion {
-    font-size: 12px;
+    font-size: 11px;
     top: 96px;
-    right: 25px;
+    right: 22px;
   }
 
   .col-5 {

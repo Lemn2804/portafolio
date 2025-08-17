@@ -29,6 +29,10 @@ header {
   object-fit: contain;
 }
 
+.logocat:hover{
+  transform: translate(-2px, -2px);
+}
+
 .mimenu {
   text-align: center;
   font-size: 15px;
@@ -45,6 +49,10 @@ header {
 
 .mimenu nav ul li {
   margin: 0 15px;
+}
+
+.mimenu nav ul li:hover {
+  transform: translate(-5px, -5px);
 }
 
 .mimenu nav ul li a {
@@ -67,6 +75,8 @@ header {
   opacity: 10px;
   filter: brightness(220%);
 }
+
+
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .col-4 {

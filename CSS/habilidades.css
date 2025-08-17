@@ -1,0 +1,49 @@
+#container-fluid {
+  position: relative;
+  top: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  text-shadow: 0 0 7px #00d9ff;
+  text-align: center;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translatex(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translatex(0%);
+    opacity: 1;
+  }
+}
+
+
+.habilidades ul {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.habilidades img {
+  max-width: 77px;
+  margin: 10px;
+  border: 1px solid #007b95;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.habilidades img:hover{
+    transform: translate(-10px, -10px);
+}
