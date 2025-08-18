@@ -18,3 +18,13 @@
   background-color: rgb(59, 209, 255);
   color: rgb(5, 0, 46);
 }
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .pagination-container {
+    top: -96px;
+  }
+
+  footer {
+    top: 1px;
+  }
+}

@@ -83,4 +83,9 @@ h4{
   footer{
   top: 90px;
   }  
+
+  .fin{
+    position: relative;
+    right: 18px;
+  }
 }

@@ -98,7 +98,7 @@ textarea {
 
   .container-center {
     justify-content: center;
-    top: 1px;
+    top: -6px;
     padding: 10;
   }
   
@@ -116,4 +116,7 @@ textarea {
   .boton {
     margin-top: 8px;
   }
+
+
+  
 }

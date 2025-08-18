@@ -6,7 +6,7 @@ section {
 .titulo {
   text-align: center;
   position: relative;
-  bottom: 31px;
+  bottom: 25px;
 }
 .titulo h1 {
   font-size: 30px;
@@ -39,6 +39,7 @@ section {
 }
 
 .fila {
+  margin: 30px auto;
   display: flex;
   gap: 68px;
   justify-content: center;
@@ -49,6 +50,7 @@ section {
   max-width: 305px;
   border-radius: 20px;
   transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px rgb(0 147 255);
 }
 
 .imagen img:hover {
@@ -103,20 +105,31 @@ button {
 }
 
 hr {
-  height: 3px;
-  background: #ffffff;
-  margin: 17px 102px;
-  width: 80.2%;
+  background: #8b5cf6;
+  box-shadow: 0 0 10px #8b5cf6;
+  height: 4px;
+  margin: 20px 0;
+  transition: all 0.5s ease;
+  border-radius: 4px;
+}
+
+hr:hover {
+  box-shadow: 0 0 50px #ffffff, 0 0 80px #00e1ff;
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .fila {
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
+    flex-wrap: wrap;
+  }
+
+  .contenido {
+    position: relative;
+    bottom: 50px;
   }
 
   hr {
+    position: relative;
+    bottom: 32px;
     margin: 20px 55px;
     width: 65.2%;
   }
