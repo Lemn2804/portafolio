@@ -1,11 +1,11 @@
-header {
-  margin: 0px;
-  padding: 0px;
+.container {
+  padding: 12px;
 }
 
 .col-4 {
   flex: 0 0 auto;
-  width: 40.333333%;
+  width: 38.333333%;
+
   position: relative;
   align-content: center;
 }
@@ -29,7 +29,7 @@ header {
   object-fit: contain;
 }
 
-.logocat:hover{
+.logocat:hover {
   transform: translate(-2px, -2px);
 }
 
@@ -91,13 +91,11 @@ header {
   }
 
   .mimenu {
-    
     text-align: center;
     font-size: 14px;
   }
 
   .mimenu nav ul {
-    
     display: flex;
     flex-direction: column;
   }
@@ -106,7 +104,6 @@ header {
     height: 21px;
     width: 100%;
     align-items: start;
-    
   }
 
   .mimenu ul li a img {
