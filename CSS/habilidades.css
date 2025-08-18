@@ -1,6 +1,11 @@
 #container-fluid {
   position: relative;
-  top: 5px;
+  top: 16px;
+  background: #0087ff1a;
+  padding: 17px 5px;
+  margin: auto 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 12px rgb(0 189 255);
 }
 
 h2 {
@@ -26,7 +31,6 @@ h2 {
   }
 }
 
-
 .habilidades ul {
   position: relative;
   display: flex;
@@ -42,8 +46,9 @@ h2 {
   border: 1px solid #007b95;
   padding: 10px;
   border-radius: 13px;
+  box-shadow: 0 6px 10px rgb(0, 0, 0);
 }
 
-.habilidades img:hover{
-    transform: translate(-10px, -10px);
+.habilidades img:hover {
+  transform: translate(-10px, -10px);
 }

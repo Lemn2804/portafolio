@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   padding: 5px;
   position: relative;
-  top: 43px;
+  top: 64px;
 }
 
 .pag {
@@ -17,4 +17,10 @@
 .pagination-container a:hover {
   background-color: rgb(59, 209, 255);
   color: rgb(5, 0, 46);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .pagination-container {
+    top: 52px;
+  }
 }

@@ -6,7 +6,7 @@ section {
 .container-center {
   justify-items: center;
   position: relative;
-  bottom: 14px;
+  top: 15px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -14,7 +14,7 @@ section {
 .titulo {
   text-align: center;
   position: relative;
-  bottom: 30px;
+  bottom: 9px;
 }
 
 .titulo h4 {

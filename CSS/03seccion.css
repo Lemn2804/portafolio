@@ -7,7 +7,7 @@ section {
   text-align: center;
   margin: 5 5 5 5;
   position: relative;
-  bottom: 10px;
+  top: 6px;
 }
 
 .titulo03 h4 {
@@ -34,7 +34,7 @@ section {
 
 .container-xxl {
   position: relative;
-  top: 20px;
+  top: 41px;
   color: #ffffff;
   display: flex;
   flex-direction: row;

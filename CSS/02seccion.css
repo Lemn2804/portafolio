@@ -10,7 +10,7 @@ section {
   align-items: center;
   padding: 0px;
   margin: 1px;
-  bottom: 11px;
+  top: 8px;
 }
 
 .mp2 h4 {
@@ -37,7 +37,7 @@ section {
 
 .card-container {
   position: relative;
-  top: 0px;
+  top: 41px;
   perspective: 1000px;
   display: flex;
   justify-content: center;

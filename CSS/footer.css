@@ -1,6 +1,6 @@
 footer {
   position: relative;
-  top: 112px;
+  top: 114px;
   padding: 5px;
   background-color: #ffffffc5;
 }
@@ -72,7 +72,7 @@ h4{
 }
 
 .menudos li:hover{
-  transform: translate(0px, 1px);
+  transform: translate(2px, 0px);
 }
 
 .menudos span{
