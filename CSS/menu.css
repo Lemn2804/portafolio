@@ -5,7 +5,6 @@
 .col-4 {
   flex: 0 0 auto;
   width: 38.333333%;
-
   position: relative;
   align-content: center;
 }
@@ -35,7 +34,7 @@
 
 .mimenu {
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   padding: 6px;
 }
 
@@ -45,14 +44,11 @@
   margin: 0;
   padding: 0;
   justify-content: center;
+  gap: 10px;
 }
 
 .mimenu nav ul li {
   margin: 0 15px;
-}
-
-.mimenu nav ul li:hover {
-  transform: translate(-5px, -5px);
 }
 
 .mimenu nav ul li a {
@@ -64,8 +60,8 @@
 }
 
 .mimenu ul li a:hover {
-  color: #00415f;
-  text-shadow: #008fb3 1px 1px 1px;
+  color: #00ccff;
+  text-shadow: #004d6b 1px 1px 1px;
 }
 
 .mimenu nav ul li a img {

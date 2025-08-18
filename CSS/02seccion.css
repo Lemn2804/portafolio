@@ -104,8 +104,15 @@ h5 {
 }
 
 .ver-mas {
-  color: rgb(0, 247, 255);
+  color: aqua;
   text-decoration: none;
+}
+
+.ver-mas:hover {
+  color: #001c29;
+  background-color: #ffffffb2;
+  padding: 2px 5px ;
+  border-radius: 10px;
 }
 
 .text1 {
