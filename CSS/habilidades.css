@@ -35,7 +35,6 @@ h2 {
   position: relative;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   list-style: none;
   flex-wrap: wrap;
 }
@@ -51,4 +50,14 @@ h2 {
 
 .habilidades img:hover {
   transform: translate(-10px, -10px);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  #container-fluid {
+    margin: auto 21px;
+  }
+
+  .habilidades ul{
+    right: 16px;
+  }
 }

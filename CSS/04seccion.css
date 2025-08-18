@@ -98,7 +98,7 @@ textarea {
 
   .container-center {
     justify-content: center;
-    bottom: 17px;
+    top: 1px;
     padding: 10;
   }
   
