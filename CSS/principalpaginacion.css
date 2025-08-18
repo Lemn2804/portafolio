@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   padding: 5px;
   position: relative;
-  top: 64px;
+  top: 50px;
 }
 
 .pag {
@@ -21,6 +21,6 @@
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .pagination-container {
-    top: 52px;
+    top: 30px;
   }
 }

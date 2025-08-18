@@ -127,7 +127,7 @@ h5 {
   }
    
   .mp2{
-    bottom: 27px;
+    top: -8px;
   }
 
   .card {
@@ -141,6 +141,6 @@ h5 {
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    top: -17px;
+    top: 8px;
   }
 }
