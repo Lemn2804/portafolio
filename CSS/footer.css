@@ -36,6 +36,7 @@ h4{
   justify-content: center;
 }
 
+
 .Txuno {
   text-align: justify;
   margin: 0;
@@ -48,6 +49,11 @@ h4{
   margin: 4px;
 }
 
+.redes img:hover{
+  transform: translate(0px, -5px);
+}
+
+
 .año {
   text-align: justify;
   margin: 0;
@@ -58,9 +64,20 @@ h4{
   list-style: none;
   text-align: end;
   padding: 5px;
-  font-size:14px ;
+  font-size:14px;
 }
 
+.menudos li a{
+  text-decoration: none;
+}
+
+.menudos li:hover{
+  transform: translate(0px, 1px);
+}
+
+.menudos span{
+  color: rgb(0, 24, 46);
+}
 
 @media screen and (min-width: 375px) and (max-width: 767px){
   footer{
