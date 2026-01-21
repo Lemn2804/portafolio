@@ -5,6 +5,18 @@
   font-family: "poppins";
   box-sizing: content-box;
 }
+
+.container-xxl {
+  position: relative;
+  text-align: center;
+  height: 18vh;
+  top: 258px;
+}
+
+.imgIndex img {
+  max-width: 216px;
+}
+
 .text {
   position: relative;
   padding: 0px;
@@ -172,6 +184,16 @@ body:hover .animated-hr {
 }
 
 @media (max-width: 501px) {
+
+
+  .container-xxl {
+    top: 300px;
+  }
+
+  .imgIndex img {
+    max-width: 150px;
+  }
+
   .text h1 {
     font-size: 27px;
   }

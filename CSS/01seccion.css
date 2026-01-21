@@ -82,6 +82,7 @@ section {
   bottom: -100%; /* Comienza fuera de la vista */
 }
 
+
 @keyframes slideUp {
   to {
     bottom: 10;
