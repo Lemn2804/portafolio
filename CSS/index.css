@@ -15,6 +15,11 @@
 
 .imgIndex img {
   max-width: 216px;
+  transition: transform 0.5s ease;
+}
+
+.imgIndex img:hover {
+  transform: scale(1.1);
 }
 
 .text {

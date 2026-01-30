@@ -32,10 +32,11 @@ section {
 .miinfo img {
   width: 350px;
   margin-left: 50px;
+  transition: transform 0.5s ease;
 }
 
 .miinfo img:hover {
-  transform: translate(-5px, -5px);
+  transform: scale(1.03);
 }
 
 .miinfo .profesion {
@@ -59,9 +60,9 @@ section {
 
 .nota {
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
-  color: rgb(0 217 255);
+  color: rgb(255, 195, 65);
 }
 
 .col-5 {

@@ -14,12 +14,12 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="./CSS/01seccion.css" />
+    
     <link rel="stylesheet" href="./CSS/menu.css"/>
-    <link rel="stylesheet" href="./CSS/footer.css" />
-    <link rel="stylesheet" href="./CSS/fondo.css" />
-    <link rel="stylesheet" href="./CSS/paginacion.css" />
-    <link rel="stylesheet" href="./CSS/estilomistrabajos.css" />
+    <link rel="stylesheet" href="./CSS/footer.css"/>
+    <link rel="stylesheet" href="./CSS/fondo.css"/>
+    <link rel="stylesheet" href="./CSS/principalpaginacion.css"/>
+    <link rel="stylesheet" href="./CSS/pagcodigo.css"/>
   </head>
 
   <body>
@@ -29,7 +29,7 @@
           <div class="col-4">
             <div class="imagotipo">
               <a href="./index.html">
-                <img src="./imagenes/logo_ok6.png"/>
+                <img src="./imagenes/logo_ok6.png" class="logocat" />
                 <img src="./imagenes/l.e.m.n. turquesa.png" class="logolemn"/>
               </a>
             </div>
@@ -70,79 +70,29 @@
               </nav>
             </div>
           </div>
+
+          
         </div>
       </div>
     </header>
 
     <section>
-      
-      <div class="titulo">
-        <h1> UX/UI. </h1>
-      </div>
 
-      <div class="container-md">
-        <div class="fila">
-          <div class="imagen">
-            <img src="./imagenes/Professional Skater.png" alt="" />
-          </div>
-          <div class="contenido">
-            <p>
-              <h5>Professional Skater.</h5>
-              <h6>UX/UI</h6>
-              Para este proyecto consistió en el diseño y desarrollo de una página web profesional para una patinadora de velocidad 
-              de alto rendimiento. El objetivo principal fue crear un espacio digital que reflejara su trayectoria deportiva 
-              y, al mismo tiempo, sirviera como plataforma de visibilidad frente a patrocinadores y medios de comunicación.
-            </p>
-            <a href="/pagcodigo.html" class="vermas" target="_blank" rel="noopener noreferrer">Ver más...</a>
-          </div>
-        </div>
+    <div class="one-container">
 
-        <hr>
+     <div class="login-box">
+      <h2>Para acceder a esta sección</h2>
+      <p>Ingrese la contraseña.</p>
 
-        <div class="fila">
-          <div class="imagen">
-            <img src="./imagenes/mantenimiento.png" alt="" />
-          </div>
-          <div class="contenido">
-            <p>
-              <h5>Titulo 2</h5>
-              <h6>tipo de trabajo</h6>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.x
-            </p>
-             <a href="" class="vermas" target="_blank" rel="noopener noreferrer">Ver más...</a>
-          </div>
-        </div>
+      <input type="password" id="password" placeholder="Contraseña">
+      <button onclick="verificar()">Ingresar</button>
 
-        <hr>
-
-        <div class="fila">
-          <div class="imagen">
-            <img src="./imagenes/mantenimiento.png" alt="" />
-          </div>
-          <div class="contenido">
-            <p>
-              <h5>Titulo 3.</h5>
-              <h6>tipo de trabajo</h6>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.x
-            </p>
-            <a href="" class="vermas" target="_blank" rel="noopener noreferrer">Ver más...</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="pagination-container">
-        <a href="./proyectos.html" class="pag">← Anterior</a>
-        <a href="./mis-trabajos02.html" class="pag">Siguiente →</a>
-      </div>
+      <p class="error" id="error">Contraseña incorrecta</p>
+    </div>
+    
     </section>
 
-    <script src="" async defer></script>
+    <script src="/JS/pagcodigo.js" async defer></script>
   </body>
 
   <footer>
@@ -154,11 +104,10 @@
                <h4>Luz E. Morales.</h4>
 
                 <p class="Txuno">
-                 Todo el contenido, diseño, código y elementos visuales de esta página
-                  web están protegidos Los derechos sobre el contenido entregado por el 
-                  cliente son de su exclusiva responsabilidad y propiedad. 
-                  Imágenes utilizadas bajo licencia de <a href="https://www.freepik.com" target="_blank">Freepik</a>
-                  <br>2025 @Lemn
+                  El contenido y el diseño de este sitio web están protegidos por derechos de autor.
+                  Algunas imágenes y recursos son de autoría propia y otros se utilizan bajo licencia, 
+                  incluyendo recursos gráficos de <a href="https://www.freepik.com" target="_blank">Freepik</a>
+                  <br> © 2026. Todos los derechos reservados </br>
                 </p>
                    
                  <div class="redes">
@@ -184,21 +133,37 @@
 
       <div class="col-6">
         <div class="menudos">
+
          <li>
-          Bienvenido.
+          <a href="./index.html">
+            <span>Bienvenido.</span>
+          </a>
          </li>
+
          <li>
-          Sobre mi.
+          <a href="./sobre-mi.html">
+            <span>Sobre mi.</span>
+          </a>
          </li>
+
          <li>
-          Mis Trabajos.
+          <a href="./proyectos.html">
+            <span>Mis Proyectos.</span>
+          </a>
          </li>
+
          <li>
-          MI proceso.
+          <a href="./proceso.html">
+            <span>Mi Proceso.</span>
+          </a>
          </li>
+
          <li>
-          Contacto.
+          <a href="./contacto.html">
+            <span>Contacto.</span>
+          </a>
          </li>
+
         </div>
       </div>
      </div>           

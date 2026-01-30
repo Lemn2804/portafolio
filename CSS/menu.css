@@ -1,5 +1,6 @@
 .container {
   padding: 12px;
+  top: 25px;
 }
 
 .col-4 {
@@ -26,10 +27,11 @@
   position: relative;
   max-height: 80px;
   object-fit: contain;
+  transition: transform 0.5s ease;
 }
 
-.logocat:hover {
-  transform: translate(-2px, -2px);
+.imagotipo img:hover {
+  transform: scale(1.1);
 }
 
 .mimenu {

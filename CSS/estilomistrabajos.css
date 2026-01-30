@@ -80,16 +80,15 @@ h6 {
 }
 
 .vermas {
-  color: #00f7ff;
+  color:#ffc400;
   text-decoration: none;
   font-weight: 300;
 }
 
 .vermas:hover {
-  background: #ffffff75;
+ 
   color: #ffffff;
-  border-radius: 9px;
-  padding: 0 15 0 15px;
+ 
 }
 
 button {
