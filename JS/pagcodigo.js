@@ -6,7 +6,7 @@
 
       if (input === CONTRASENA_ADMIN) {
         // Redirige al contenido protegido
-        window.location.href = "/Doc/investigacion-professional-s.pdf";
+        window.location.href = "./Doc/investigacion-professional-s.pdf";
       } else {
         error.style.display = "block";
       }
